@@ -1,0 +1,50 @@
+{
+	"name": "weather-me",
+	"version": "0.0.0",
+	"private": true,
+	"description": "Simple weather application that uses OpenWeatherMap API.",
+	"homepage": "",
+	"repository": "github:kutsan/weather-me",
+	"license": "GPL-3.0",
+	"author": "Kutsan Kaplan <me@kutsankaplan.com> (https://kutsankaplan.com)",
+	"scripts": {
+		"prebuild": "npm run prestart",
+		"build": "rm -rf build/ && NODE_ENV=production webpack --progress",
+		"format": "npm run format:stylelint && npm run format:prettier",
+		"format:prettier": "prettier --loglevel='silent' --write 'src/**/*.{js,jsx,json}'",
+		"format:stylelint": "stylelint --fix 'src/**/*.css'",
+		"lint": "npm run lint:eslint && npm run lint:stylelint",
+		"lint:eslint": "eslint 'src/**/*.{js,jsx}'",
+		"lint:stylelint": "stylelint 'src/**/*.css'",
+		"prestart": "npm run lint && npm run test && npm run format",
+		"start": "NODE_ENV=development webpack-dev-server",
+		"test": "jest",
+		"test:coverage": "jest --watch --coverage",
+		"test:watch": "jest --watch --verbose"
+	},
+	"dependencies": {
+		"react": "~16.13.1",
+		"react-dom": "~16.13.1"
+	},
+	"devDependencies": {
+		"@babel/core": "~7.9.0",
+		"@babel/preset-env": "~7.9.5",
+		"@babel/preset-react": "~7.9.4",
+		"@kutsan/config": "~0.3.0",
+		"babel-eslint": "~10.1.0",
+		"babel-jest": "~25.4.0",
+		"babel-loader": "~8.1.0",
+		"css-loader": "~3.5.3",
+		"eslint": "~6.8.0",
+		"eslint-plugin-react": "~7.19.0",
+		"html-webpack-plugin": "~4.2.0",
+		"jest": "~25.4.0",
+		"prettier": "~2.0.5",
+		"react-svg-loader": "~3.0.3",
+		"style-loader": "~1.2.0",
+		"stylelint": "~13.3.3",
+		"webpack": "~4.43.0",
+		"webpack-cli": "~3.3.11",
+		"webpack-dev-server": "~3.10.3"
+	}
+}
