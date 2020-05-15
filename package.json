@@ -3,7 +3,6 @@
 	"version": "0.1.0",
 	"private": true,
 	"description": "Simple weather application that uses OpenWeatherMap API.",
-	"homepage": "",
 	"repository": "github:kutsan/weather-me",
 	"license": "GPL-3.0",
 	"author": "Kutsan Kaplan <me@kutsankaplan.com> (https://kutsankaplan.com)",
