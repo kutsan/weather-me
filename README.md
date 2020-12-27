@@ -4,6 +4,8 @@ Simple weather application that uses OpenWeatherMap API. I needed a fast app to
 simply search for cities and show their current weather conditions. So, it does
 simply one thing, show the current weather and its details.
 
+![screenshot](https://raw.githubusercontent.com/kutsan/weather-me/master/.github/screenshot.png)
+
 ## Development
 
 Install dependencies first:
