@@ -1,0 +1,28 @@
+.error-message {
+  overflow: auto;
+
+  max-height: 100%;
+  padding: 20px;
+
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.error-message::before {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+
+  width: 4rem;
+  height: 4rem;
+  margin: 20px;
+
+  content: '!';
+
+  border: 2px solid;
+  border-radius: 50%;
+
+  font-size: 3rem;
+  font-weight: bold;
+}

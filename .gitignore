@@ -1,6 +1,3 @@
-node_modules/
-build/
-__snapshots__/
-coverage
-.cache-loader/
-.firebase/
+node_modules
+.DS_Store
+dist
