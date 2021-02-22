@@ -1,0 +1,21 @@
+.spinner {
+  display: inline-block;
+
+  width: 6rem;
+  height: 6rem;
+
+  animation: loading 1.2s infinite linear;
+
+  border-top: 4px solid #ffffff;
+  border-right: 4px solid #ffffff;
+  border-bottom: 4px solid #777777;
+  border-left: 4px solid #777777;
+  border-radius: 50%;
+  background: transparent;
+}
+
+@keyframes loading {
+  to {
+    transform: rotate(360deg);
+  }
+}

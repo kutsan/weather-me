@@ -1,0 +1,47 @@
+.result__icon-container {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  justify-content: center;
+
+  width: 50%;
+}
+
+.result__icon {
+  margin-bottom: 20px;
+}
+
+.result__icon svg {
+  display: inline-block;
+
+  width: 150px;
+  height: 150px;
+  fill: white;
+}
+
+.result__title {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.result__status {
+  font-weight: 200;
+}
+
+.result__city-container {
+  width: 50%;
+}
+
+.result__temp {
+  margin-bottom: 20px;
+
+  font-size: 5rem;
+  font-weight: 300;
+}
+
+.result__city {
+  margin-bottom: 15px;
+
+  font-size: 1.5rem;
+  font-weight: 300;
+}
