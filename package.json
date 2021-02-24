@@ -1,6 +1,6 @@
 {
   "name": "weather-me",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": true,
   "description": "Simple weather application that uses OpenWeatherMap API.",
   "repository": "github:kutsan/weather-me",
