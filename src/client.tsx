@@ -1,5 +1,3 @@
-import 'preact/debug'
-
 import { StrictMode } from 'react'
 import { render } from 'react-dom'
 
