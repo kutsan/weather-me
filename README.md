@@ -2,9 +2,7 @@
 
 ![screenshot](https://raw.githubusercontent.com/kutsan/weather-me/master/.github/screenshot.png)
 
-> Simple weather application that uses OpenWeatherMap API. I needed a fast app to simply search for cities and show their current weather conditions. So, it does simply one thing, show the current weather and its details.
-
-Project is live and available at https://weather-me.kutsankaplan.com.
+Simple weather application that uses OpenWeatherMap API. I needed a fast app to simply search for cities and show their current weather conditions. So, it does simply one thing, show the current weather and its details.
 
 ## Development
 
