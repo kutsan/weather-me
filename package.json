@@ -5,7 +5,7 @@
   "description": "Simple weather application that uses OpenWeatherMap API.",
   "repository": "github:kutsan/weather-me",
   "license": "GPL-3.0",
-  "author": "Kutsan Kaplan <me@kutsankaplan.com> (https://kutsankaplan.com)",
+  "author": "Kutsan Kaplan <me@kutsan.dev> (https://kutsan.dev)",
   "scripts": {
     "prestart": "npm run format && npm run lint",
     "start": "vite",
